@@ -1,0 +1,14 @@
+{
+  "name": "ez-mtgjson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Austin Yearly Kim",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.7"
+  },
+  "devDependencies": {},
+  "description": "Lightweight NPM module to interact with Magic: The Gathering information from the famous https://mtgjson.com/.",
+  "keywords": ["magic: the gathering", "magic", "gathering", "json", "node", "mtgjson", "mtg"]
+}
