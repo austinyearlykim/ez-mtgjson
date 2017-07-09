@@ -34,7 +34,6 @@ The OPTIONS_OBJECT:
 | clearCache | COMING_SOON | Boolean
 
 ### Todos
- - Add a neato-bandito Travis-CI badge
  - Able user to query for a specific card
  - Able user to query for all cards in a specific set
  - Able user to filter by cmc, color, etc.
