@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/austinyearlykim/ez-mtgjson.svg?branch=master)](https://travis-ci.org/austinyearlykim/ez-mtgjson)
+[![npm version](https://badge.fury.io/js/ez-mtgjson.svg)](https://badge.fury.io/js/ez-mtgjson)
 # ez-mtgjson
 Lightweight npm module to interact with Magic: The Gathering information from the famous https://mtgjson.com/.  
 
@@ -10,27 +12,26 @@ $ npm install ez-mtgjson
 ```
 const ezmtgjson = require('ez-mtgjson');
 
-ezmtgjson.download({ target: 'allCards' })
-    .then((json) => { console.log(json); })
-    .catch((err) => { console.log(err); })
+ezmtgjson
+    .download({ target: 'allCards' })
+        .then((json) => { console.log(json); })
+        .catch((err) => { console.log(err); })
 ```
 
 # Documentation
 Available methods:
-
 | Methods | Description |
 | ------ | ------ |
 | .download(OPTIONS_OBJECT) | Downloads JSON and returns it in a promise |
 
 The OPTIONS_OBJECT:
-
 | Properties | Description | Type | Specific Values |
 | ------ | ------ | ------ | ------ |
 | target | Downloads JSON and returns it in a promise | String | allCards, allCardsX, allSets, allSetsX
 | filePath | Downloads JSON and saves it to a relative file path (also returns JSON in promise) | String
-| cache | COMING_SOON | Boolean |
-| queryFromCache | COMING_SOON | Object |
-| clearCache | COMING_SOON | Boolean |
+| cache | COMING_SOON | Boolean
+| queryFromCache | COMING_SOON | Object
+| clearCache | COMING_SOON | Boolean
 
 ### Todos
  - Add a neato-bandito Travis-CI badge

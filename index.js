@@ -61,7 +61,7 @@ ezMtgJson.download = function(options) {
                         if (options.filePath) {
                             fs.writeFileSync(resolvePath(options.filePath), unzippedJson);
                         }
-                        resolve(unzippedJson);
+                        resolve(JSON.parse(unzippedJson));
                     }
                 });
         });
