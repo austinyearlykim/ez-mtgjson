@@ -20,11 +20,13 @@ ezmtgjson
 
 # Documentation
 Available methods:
+
 | Methods | Description |
 | ------ | ------ |
 | .download(OPTIONS_OBJECT) | Downloads JSON and returns it in a promise |
 
 The OPTIONS_OBJECT:
+
 | Properties | Description | Type | Specific Values |
 | ------ | ------ | ------ | ------ |
 | target | Downloads JSON and returns it in a promise | String | allCards, allCardsX, allSets, allSetsX
