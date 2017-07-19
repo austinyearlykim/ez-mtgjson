@@ -6,6 +6,11 @@
     "test": "mocha test --recursive"
   },
   "author": "Austin Yearly Kim",
+  "homepage": "https://github.com/austinyearlykim/ez-mtgjson",
+  "bugs": {
+    "url": "https://github.com/austinyearlykim/ez-mtgjson/issues",
+    "email": "austinyearlykim@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.4.7"
