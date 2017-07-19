@@ -29,11 +29,9 @@ The OPTIONS_OBJECT:
 
 | Properties | Description | Type | Specific Values |
 | ------ | ------ | ------ | ------ |
-| target | Downloads JSON and returns it in a promise | String | allCards, allCardsX, allSets, allSetsX
+| target | Downloads JSON and returns it in a promise | String | "allCards", "allCardsX", "allSets", "allSetsX"
 | filePath | Downloads JSON and saves it to a relative file path (also returns JSON in promise) | String
-| cache | COMING_SOON | Boolean
-| queryFromCache | COMING_SOON | Object
-| clearCache | COMING_SOON | Boolean
+
 
 ### Todos
  - Able user to query for a specific card
